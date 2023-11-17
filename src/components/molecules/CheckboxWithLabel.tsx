@@ -7,7 +7,7 @@ type Prop = {
   onChange?: (event: CheckboxWithLabelChangeEvent) => void
 }
 
-type CheckboxWithLabelChangeEvent = {
+export type CheckboxWithLabelChangeEvent = {
   value: Prop['value']
   label: Prop['label']
   checked: boolean
