@@ -10,7 +10,7 @@ export type CompositionPerYear = {
         data: {
           year: number
           value: number // 人口
-        }
+        }[]
       }
     | {
         label: string
@@ -18,7 +18,7 @@ export type CompositionPerYear = {
           year: number
           value: number // 人口
           rate: number
-        }
+        }[]
       }
   )[]
 }
