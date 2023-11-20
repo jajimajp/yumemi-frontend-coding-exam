@@ -13,7 +13,7 @@ export type CompositionPerYear = {
         }[]
       }
     | {
-        label: string
+        label: Exclude<CompositionPerYearLabel, '総人口'>
         data: {
           year: number
           value: number // 人口
@@ -22,3 +22,5 @@ export type CompositionPerYear = {
       }
   )[]
 }
+
+export type CompositionPerYearLabel = '総人口' | '年少人口' | '生産年齢人口' | '老年人口'
