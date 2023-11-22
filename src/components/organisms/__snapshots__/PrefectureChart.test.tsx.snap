@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrefectureChart.tsx スナップショットが作成できる 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="recharts-wrapper"
+        role="region"
+        style="position: relative; cursor: default; width: 800px; height: 400px;"
+      >
+        <svg
+          class="recharts-surface"
+          height="400"
+          style="width: 100%; height: 100%;"
+          viewBox="0 0 800 400"
+          width="800"
+        >
+          <title />
+          <desc />
+          <defs>
+            <clippath
+              id="recharts1-clip"
+            >
+              <rect
+                height="320"
+                width="655"
+                x="140"
+                y="0"
+              />
+            </clippath>
+          </defs>
+          <g
+            class="recharts-cartesian-grid"
+          >
+            <g
+              class="recharts-cartesian-grid-horizontal"
+            >
+              <line
+                fill="none"
+                height="320"
+                stroke="#ccc"
+                width="655"
+                x="140"
+                x1="140"
+                x2="795"
+                y="0"
+                y1="0"
+                y2="0"
+              />
+              <line
+                fill="none"
+                height="320"
+                stroke="#ccc"
+                width="655"
+                x="140"
+                x1="140"
+                x2="795"
+                y="0"
+                y1="320"
+                y2="320"
+              />
+            </g>
+            <g
+              class="recharts-cartesian-grid-vertical"
+            >
+              <line
+                fill="none"
+                height="320"
+                stroke="#ccc"
+                width="655"
+                x="140"
+                x1="140"
+                x2="140"
+                y="0"
+                y1="0"
+                y2="320"
+              />
+              <line
+                fill="none"
+                height="320"
+                stroke="#ccc"
+                width="655"
+                x="140"
+                x1="795"
+                x2="795"
+                y="0"
+                y1="0"
+                y2="320"
+              />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="recharts-wrapper"
+      role="region"
+      style="position: relative; cursor: default; width: 800px; height: 400px;"
+    >
+      <svg
+        class="recharts-surface"
+        height="400"
+        style="width: 100%; height: 100%;"
+        viewBox="0 0 800 400"
+        width="800"
+      >
+        <title />
+        <desc />
+        <defs>
+          <clippath
+            id="recharts1-clip"
+          >
+            <rect
+              height="320"
+              width="655"
+              x="140"
+              y="0"
+            />
+          </clippath>
+        </defs>
+        <g
+          class="recharts-cartesian-grid"
+        >
+          <g
+            class="recharts-cartesian-grid-horizontal"
+          >
+            <line
+              fill="none"
+              height="320"
+              stroke="#ccc"
+              width="655"
+              x="140"
+              x1="140"
+              x2="795"
+              y="0"
+              y1="0"
+              y2="0"
+            />
+            <line
+              fill="none"
+              height="320"
+              stroke="#ccc"
+              width="655"
+              x="140"
+              x1="140"
+              x2="795"
+              y="0"
+              y1="320"
+              y2="320"
+            />
+          </g>
+          <g
+            class="recharts-cartesian-grid-vertical"
+          >
+            <line
+              fill="none"
+              height="320"
+              stroke="#ccc"
+              width="655"
+              x="140"
+              x1="140"
+              x2="140"
+              y="0"
+              y1="0"
+              y2="320"
+            />
+            <line
+              fill="none"
+              height="320"
+              stroke="#ccc"
+              width="655"
+              x="140"
+              x1="795"
+              x2="795"
+              y="0"
+              y1="0"
+              y2="320"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
