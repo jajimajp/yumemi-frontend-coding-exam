@@ -16,7 +16,7 @@ type SelectFieldOption = {
   label: string
 }
 
-type SelectFieldChangeEvent = {
+export type SelectFieldChangeEvent = {
   target: CheckboxWithLabelChangeEvent
   selectedOptions: SelectFieldOption[]
 }
