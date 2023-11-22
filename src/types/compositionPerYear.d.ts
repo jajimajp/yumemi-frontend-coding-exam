@@ -1,3 +1,5 @@
+import type { Prefecture } from './prefecture'
+
 /**
  * RESAS API 都道府県の人口構成のリクエスト成功時のレスポンス内容を表す型
  * API仕様: https://opendata.resas-portal.go.jp/docs/api/v1/population/composition/perYear.html
@@ -24,3 +26,11 @@ export type CompositionPerYear = {
 }
 
 export type CompositionPerYearLabel = '総人口' | '年少人口' | '生産年齢人口' | '老年人口'
+
+/**
+ * 各年ごとに、都道府県ごとの数値をまとめたリスト
+ */
+export type BundledComposition = {
+  year: number
+  [key: Prefecture['prefCode']]: number
+}[]
